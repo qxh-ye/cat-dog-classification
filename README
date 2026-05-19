@@ -1,0 +1,24 @@
+# Cat Dog Classification
+基于 ResNet18 迁移学习的猫狗二分类项目
+## 项目内容
+-- 自定义Dataset
+-- DataLoade 数据加载
+-- train/val/test 数据划分
+-- ResNet18 迁移学习
+-- 数据增强
+-- 模型训练与验证
+-- 最佳模型保存
+-- 单张图片预测
+## 项目结构
+···text
+cat_dog_project
+├── train.py
+├── predict.py
+├── datasets/
+│   └── my_dataset.py
+├── models/
+│   └── resnet18_model.py
+├── utils/
+│   └── engine.py
+├── checkpoints/
+└── data/
